@@ -7,7 +7,7 @@ The final project can play videos, movies, music surf on Youtube, everything you
 
 This projects is in 3 main parts :
   * The hardware, which implies a lot of soldering and spare time
-  * The hardware control, which is running on an chinese Arduino close
+  * The hardware control, which is running on an chinese Arduino clone
   * The software, this part is running on a Raspberry Pi 3 with LibreELEC and a few configurations and scripts to work with the Arduino firmware
 
 And that's it.
