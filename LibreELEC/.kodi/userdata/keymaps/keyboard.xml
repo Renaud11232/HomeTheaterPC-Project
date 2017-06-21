@@ -2,7 +2,9 @@
 <keymap>
   <global>
     <keyboard>
-      <end mod="ctrl">ShutDown()</end>
+      <j>ActivateWindow(home)</j>
+      <k>ActivateWindow(settings)</k>
+      <l>ActivateWindow(programs)</l>
     </keyboard>
   </global>
 </keymap>
