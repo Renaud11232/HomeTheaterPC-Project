@@ -1,6 +1,6 @@
 # HomeTheaterPC Project
 
-HomeTheaterPC Project is a total remake of an old TV decoder box. The goal is to be kee the case and making it fully working.
+HomeTheaterPC Project is a total remake of an old TV decoder box. The goal is to keep the case and making it fully working.
 The final project can play videos, movies, music surf on Youtube, everything you'd like from a media box
 
 ### *How does it work*
