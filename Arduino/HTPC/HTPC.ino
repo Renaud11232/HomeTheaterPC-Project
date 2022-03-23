@@ -83,15 +83,15 @@ unsigned long powerPressedTime = 0L;
 #define KEY_NUMPAD_8 232
 #define KEY_NUMPAD_9 233
 #define KEY_NUMPAD_0 234
+#define KEY_MENU KEY_F1
+#define KEY_CONTEXT KEY_F2
+#define KEY_HOME_SCREEN KEY_F3
+#define KEY_SETUP KEY_F4
+#define KEY_APP KEY_F5
 #define KEY_MUTE KEY_F8
-#define KEY_SHUTDOWN 's'
-#define KEY_MENU ';'
-#define KEY_CONTEXT 'c'
-#define KEY_HOME_SCREEN 'j'
-#define KEY_NUMPAD_PLUS 223
-#define KEY_NUMPAD_MINUS 222
-#define KEY_SETUP 'k'
-#define KEY_APP 'l'
+#define KEY_VOLUME_MINUS KEY_F9
+#define KEY_VOLUME_PLUS KEY_F10
+#define KEY_SHUTDOWN KEY_F12
 
 #define REMOTE_PRESSED_TIMEOUT 150
 
@@ -380,12 +380,12 @@ void irComm(){
 			case REMOTE_VOL_UP:
 				releaseRemoteButtons();
 				lastIrCode = results.value;
-				pressKeyIfOn(KEY_NUMPAD_PLUS);
+				pressKeyIfOn(KEY_VOLUME_PLUS);
 				break;
 			case REMOTE_VOL_DOWN:
 				releaseRemoteButtons();
 				lastIrCode = results.value;
-				pressKeyIfOn(KEY_NUMPAD_MINUS);
+				pressKeyIfOn(KEY_VOLUME_MINUS);
 				break;
 			case REMOTE_SETUP:
 				releaseRemoteButtons();
@@ -479,10 +479,10 @@ void releaseRemoteButtons(){
 				releaseKeyIfOn(KEY_HOME_SCREEN);
 				break;
 			case REMOTE_VOL_UP:
-				releaseKeyIfOn(KEY_NUMPAD_PLUS);
+				releaseKeyIfOn(KEY_VOLUME_PLUS);
 				break;
 			case REMOTE_VOL_DOWN:
-				releaseKeyIfOn(KEY_NUMPAD_MINUS);
+				releaseKeyIfOn(KEY_VOLUME_MINUS);
 				break;
 			case REMOTE_SETUP:
 				releaseKeyIfOn(KEY_SETUP);

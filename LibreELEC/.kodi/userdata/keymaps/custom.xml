@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<keymap>
+  <global>
+    <keyboard>
+      <f1>Menu</f1>
+      <f2>ContextMenu</f2>
+      <f3>ActivateWindow(home)</f3>
+      <f4>ActivateWindow(settings)</f4>
+      <f5>ActivateWindow(programs)</f5>
+      <f12>ShutDown()</f12>
+    </keyboard>
+  </global>
+</keymap>
